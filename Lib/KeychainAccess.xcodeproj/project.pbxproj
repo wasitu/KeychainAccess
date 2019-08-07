@@ -393,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44E61BF9EDCB004FFEC1 /* Debug.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "${TOOLCHAIN_DIR}/usr/lib/swift-${SWIFT_VERSION}/${PLATFORM_NAME}";
 			};
 			name = Debug;
 		};
@@ -400,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44E71BF9EDCB004FFEC1 /* Release.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "${TOOLCHAIN_DIR}/usr/lib/swift-${SWIFT_VERSION}/${PLATFORM_NAME}";
 			};
 			name = Release;
 		};
